@@ -28,7 +28,8 @@ The textual data is transformed into numerical form using techniques like TF-IDF
 ### •	Model Building 
 
 Two deep learning models, a Simple RNN and an LSTM, are built to predict the sentiment of the reviews.
-The Lstm Model, test accuracy is 0.902 which indicates a good performance to this model. 
+
+The LSTM Model, test accuracy is 0.902 which indicates a good performance to this model. 
 
 The Simple RNN model is at 0.865 accuracy which is lower than the LSTM model performance.
 
@@ -41,13 +42,14 @@ SimpleRNN Model with an AUC of 0.91, the SimpleRNN model is performing much bett
 LSTM Model: With an AUC of 0.53 is only marginally better than random guessing. This indicates that the LSTM model is not very effective for this particular task or dataset.
 
 Hyperparameter tuning is performed to optimize the models for better performance.
+
 The Model tuning for simple RNN Accuracy score is 0.8694 which has no huge difference from the model before tuning which was 0.8658.
 
 The score is slightly higher than our objective of achieving 0.85 accurracy score. The model is therefore is satisfactory.
 
 ### Results
 
-**Customer feedback**: The overall feedback is positive.This is shown by most ratings being 4 or 5. 
+**Customer feedback**: The overall feedback is positive. This is shown by most ratings being 4 or 5. 
  
 **Product preference**: From the analysis, customers prefer these products; Fire Tablets, Tablets, and Computers & Tablets.
 
