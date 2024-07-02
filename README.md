@@ -29,12 +29,27 @@ Two deep learning models, a Simple RNN and an LSTM, are built to predict the sen
 
 •	Model Evaluation
 
-The models are evaluated using accuracy scores, confusion matrices, and ROC curves to ensure they accurately classify the sentiment of the reviews.
+The models are evaluated using accuracy scores and ROC curves to ensure they accurately classify the sentiment of the reviews.
 
 Results
 
-The analysis reveals key insights into customer satisfaction and preferences. The distribution of review ratings shows a predominance of positive reviews. Temporal analysis indicates fluctuations in average ratings, while category analysis highlights high engagement in specific product categories. Bivariate analysis shows correlations between helpful votes, recommendations, and review lengths with ratings.
+**Customer feedback**: The overall feedback is positive.This is shown by most ratings being 4 or 5. 
+ 
+**Product preference**: From the analysis, customers prefer these products; Fire Tablets, Tablets, and Computers & Tablets.
+
+**Trend Analysis**: From the temporal Analysis of ratings there isn't a significant trend in average ratings over time. Periodic spikes or dips may indicate specific product launches, updates, or marketing campaigns. 
+
+**User Experience**: Reviews with the most helpful votes are an indication of positive customer experience. This is pivotal in influencing potential customers. 
+  
 
 Conclusion
+**Customer feedback**: The overall feedback is positive.
+It's therefore, essential to continue monitoring and encouraging positive customer experiences. This can be achieved through maintaining product quality, enhancing customer service, and soliciting feedback from satisfied customers to bolster positive reviews.
 
+**Product preference**: We recommend investing in the most preferred product categories by expanding product lines, improving features based on customer feedback, and maintaining competitive pricing to sustain positive customer sentiment.
+
+**Trend Analysis**: Periodic spikes or dips may indicate specific product launches, updates, or marketing campaigns. 
+Consider correlating these fluctuations with internal events to identify factors influencing customer sentiment and adjust strategies accordingly.
+
+**User Experience**: We recommend encouraging customers to leave detailed and informative reviews by incentivizing feedback or providing clear guidelines on what constitutes a helpful review. This will help stakeholders to highlight these reviews prominently to enhance trust and credibility among prospective buyers.
 This sentiment analysis system provides a scalable and automated way to interpret vast amounts of customer feedback. By leveraging NLP and deep learning, businesses can gain valuable insights to improve their products and services, ultimately enhancing customer satisfaction.
