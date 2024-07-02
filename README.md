@@ -1,5 +1,7 @@
-# Analyzing-Amazon-Reviews-Sentiment-Classification-with-NLP-and-Deep-Learning
-A Sentiment Analysis system using Natural Language Processing (NLP) and Deep Learning models to classify Amazon reviews as either positive or negative.
+# Sentiment-Analysis-on-Amazon-Reviews-Using-Natural-Language-Processing-and-Deep-Learning
+In this project, we used Natural Language Processing & Deep Learning models to Classify Amazon Reviews as either positive or negative. 
+
+Reviews serve as the lifeblood of every business offering invaluable insights into customer satisfaction, preference and areas of improvement. Therefore these reviews are paramount for businesses seeking to thrive in competetive markets in today's digital space where consumers wield unprecedented influence through online platforms, understanding & interpreting them.
 
 ### Overview
 
