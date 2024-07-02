@@ -1,37 +1,49 @@
 # Analyzing-Amazon-Reviews-Sentiment-Classification-with-NLP-and-Deep-Learning
 A Sentiment Analysis system using Natural Language Processing (NLP) and Deep Learning models to classify Amazon reviews as either positive or negative.
 
-Overview
+### Overview
 
 Online reviews have become a significant source of customer feedback for businesses. Amazon, being one of the largest online marketplaces, generates an enormous volume of customer reviews daily. These reviews provide valuable insights into customer satisfaction, preferences, and areas needing improvement. However, the sheer volume makes manual analysis impractical.
 
-Objective
+### Objective
 
 This project aims to design and implement a sentiment analysis system using Natural Language Processing (NLP) and Deep Learning models to classify Amazon reviews as either positive or negative. The goal is to develop a robust model that can accurately interpret the sentiment expressed in the reviews, thus providing actionable insights for businesses to enhance their products and services.
 
-Approach
+### Approach
 
-•	Data Preparation
+### •	Data Preparation
 
 The project begins with cleaning and preprocessing the review data. This includes text cleaning to remove punctuation and special characters, tokenization to split text into words, normalization to convert text to lowercase and perform stemming or lemmatization, and padding/truncation to standardize text sequence lengths.
 
-•	Exploratory Data Analysis (EDA)
+### •	Exploratory Data Analysis (EDA)
 
 Visualizations and statistical analyses are conducted to understand the distribution of sentiments over time, across brands, and product categories. This helps in identifying trends and patterns in customer feedback.
 
-•	Feature Engineering
+### •	Feature Engineering
 
 The textual data is transformed into numerical form using techniques like TF-IDF and Count Vectorization. Additionally, word embeddings such as Word2Vec and FastText are employed to capture semantic relationships between words. Bigrams and trigrams are also extracted to understand common word pairings.
 
-•	Model Building 
+### •	Model Building 
 
-Two deep learning models, a Simple RNN and an LSTM, are built to predict the sentiment of the reviews. Hyperparameter tuning is performed to optimize the models for better performance.
+Two deep learning models, a Simple RNN and an LSTM, are built to predict the sentiment of the reviews.
+The Lstm Model, test accuracy is 0.902 which indicates a good performance to this model. 
 
-•	Model Evaluation
+The Simple RNN model is at 0.865 accuracy which is lower than the LSTM model performance.
+
+### •	Model Evaluation
 
 The models are evaluated using accuracy scores and ROC curves to ensure they accurately classify the sentiment of the reviews.
 
-Results
+SimpleRNN Model with an AUC of 0.91, the SimpleRNN model is performing much better than the LSTM model in distinguishing between the classes. It has a high true positive rate and a low false positive rate across various thresholds.
+
+LSTM Model: With an AUC of 0.53 is only marginally better than random guessing. This indicates that the LSTM model is not very effective for this particular task or dataset.
+
+Hyperparameter tuning is performed to optimize the models for better performance.
+The Model tuning for simple RNN Accuracy score is 0.8694 which has no huge difference from the model before tuning which was 0.8658.
+
+The score is slightly higher than our objective of achieving 0.85 accurracy score. The model is therefore is satisfactory.
+
+### Results
 
 **Customer feedback**: The overall feedback is positive.This is shown by most ratings being 4 or 5. 
  
@@ -42,7 +54,7 @@ Results
 **User Experience**: Reviews with the most helpful votes are an indication of positive customer experience. This is pivotal in influencing potential customers. 
   
 
-Conclusion
+### Conclusion
 **Customer feedback**: The overall feedback is positive.
 It's therefore, essential to continue monitoring and encouraging positive customer experiences. This can be achieved through maintaining product quality, enhancing customer service, and soliciting feedback from satisfied customers to bolster positive reviews.
 
